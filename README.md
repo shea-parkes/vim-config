@@ -40,6 +40,7 @@ Some of this is mentioned above, but here is a consolidated source for helping t
 Vim 7.x didn't make it easy to write async plugins, so making Vim a ~full IDE at this point is not exactly tasteful.  Instead, the following plugins just make things nicer than default:
   * [tpope/vim-pathogen](https://github.com/tpope/vim-pathogen)
   * [tpope/vim-surround](https://github.com/tpope/vim-surround)
+  * [tpope/vim-repeat](https://github.com/tpope/vim-repeat)
   * [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive)
   * [jpalardy/vim-slime](https://github.com/jpalardy/vim-slime)
   * [airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter)
