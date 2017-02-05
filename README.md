@@ -38,10 +38,11 @@ Some of this is mentioned above, but here is a consolidated source for helping t
 ## Useful Plugins
 
 Vim 7.x didn't make it easy to write async plugins, so making Vim a ~full IDE at this point is not exactly tasteful.  Instead, the following plugins just make things nicer than default:
-  * [tpope/vim-pathogen](http://github.com/tpope/vim-pathogen)
-  * [tpope/vim-surround](http://github.com/tpope/vim-surround)
-  * [tpope/vim-fugitive](http://github.com/tpope/vim-fugitive)
-  * [jpalardy/vim-slime](http://github.com/jpalardy/vim-slime)
-  * [airblade/vim-gitgutter](http://github.com/airblade/vim-gitgutter)
+  * [tpope/vim-pathogen](https://github.com/tpope/vim-pathogen)
+  * [tpope/vim-surround](https://github.com/tpope/vim-surround)
+  * [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive)
+  * [jpalardy/vim-slime](https://github.com/jpalardy/vim-slime)
+  * [airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter)
+  * [Raimondi/delimitMate](https://github.com/Raimondi/delimitMate)
   
 Only a couple of the above require specific configuration options in `vimrc`.  See its contents for details.
