@@ -11,3 +11,11 @@ let g:slime_target = "conemu"
 set scrolloff=3
 set sidescrolloff=5
 
+" Search as you type, highlight when you're done
+set incsearch
+set hlsearch
+
+" Use <C-L> to additionally clear the highlighting of :set hlsearch.
+if maparg('<C-L>', 'n') ==# ''
+  nnoremap <silent> <C-L> :nohlsearch<C-R>=has('diff')?'<Bar>diffupdate':''<CR><CR><C-L>
+endif
