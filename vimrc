@@ -7,3 +7,7 @@ set updatetime=2100
 let g:slime_target = "conemu"
 " let g:slime_python_ipython = 1
 
+" Be a bit more aggressive with scroll offsets
+set scrolloff=3
+set sidescrolloff=5
+
