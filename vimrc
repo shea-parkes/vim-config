@@ -19,3 +19,7 @@ set hlsearch
 if maparg('<C-L>', 'n') ==# ''
   nnoremap <silent> <C-L> :nohlsearch<C-R>=has('diff')?'<Bar>diffupdate':''<CR><CR><C-L>
 endif
+
+" Play some with the tab completion
+set wildmenu
+set wildmode=list:longest,full
