@@ -45,5 +45,6 @@ Vim 7.x didn't make it easy to write async plugins, so making Vim a ~full IDE at
   * [jpalardy/vim-slime](https://github.com/jpalardy/vim-slime)
   * [airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter)
   * [Raimondi/delimitMate](https://github.com/Raimondi/delimitMate)
+  * [ervandew/supertab](https://github.com/ervandew/supertab)
   
 Only a couple of the above require specific configuration options in `vimrc`.  See its contents for details.
