@@ -23,3 +23,7 @@ endif
 " Play some with the tab completion
 set wildmenu
 set wildmode=list:longest,full
+
+" Relocate swap files.  Double trailing slash is an implicit hint.
+set directory=~/.vim/swap_files//
+
