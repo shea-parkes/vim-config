@@ -3,5 +3,5 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\*\shell\Open with Vim]
 
 [HKEY_CLASSES_ROOT\*\shell\Open with Vim\command]
-@="C:\\Miniconda3\\envs\\prod2016_11\\Library\\usr\\bin\\vim.exe \"%1\""
+@="C:\\Miniconda3\\envs\\inception\\Library\\usr\\bin\\vim.exe \"%1\""
 
