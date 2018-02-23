@@ -13,11 +13,12 @@ I want to be able to just clone this repository into `~/.vim`, and I don't reall
 ## Installing Vim
 
 I'm planning on just using the Vim executable that comes with Git for Windows.  Installation would be as follows:
-  * Install Git for Windows (likely via `conda`)
+  * Install Git for Windows (likely via `choco install git.portable` because `conda` doesn' give the whole she-bang currently)
+  * Ensure git ends up on the path (`choco` puts it on the path of the admin user who installed it, which isn't as useful)
+    * If using `choco install git.portable`, add `C:\tools\git\mingw64\bin` to `%PATH%`
   * Add Vim to `%PATH%`
-    * In conda, this is usually `/Miniconda3/envs/my_env/Library/usr/bin`
-    * Might want to add the other `bin` directories to get the rest of the Unix toolchain
-    * Oddly, when using Git for Windows, the user `%PATH%` entries are not appended, so be sure to add these tools to the system `%PATH%`
+    * Via `choco`, this is usually `C:\tools\git\usr\bin`
+    * Oddly, when using Git for Windows, the user `%PATH%` entries are not appended, so be sure to add these entries to the system `%PATH%`
   * Clone this repository into `%UserProfile%/.vim`
   * Clone desired plugins into `%UserProfile%/repos/vim-plugins`
   * Add registry entry for `Open with Vim` Explorer context menu entry
