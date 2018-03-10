@@ -10,6 +10,9 @@ set updatetime=100
 set incsearch
 set hlsearch
 
+" Turn on spellchecking
+set spell spelllang=en_us
+
 " Split like you'd expect in other programs
 set splitbelow
 set splitright
