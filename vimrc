@@ -57,6 +57,10 @@ if maparg('<C-L>', 'n') ==# ''
   nnoremap <silent> <C-L> :nohlsearch<C-R>=has('diff')?'<Bar>diffupdate':''<CR><CR><C-L>
 endif
 
+" Stay in visual mode when indenting
+vnoremap < <gv
+vnoremap > >gv
+
 " Git related mappings
 nnoremap <Leader>gs :Gstatus<CR>
 nnoremap <Leader>gf :Gfetch --prune<CR>
