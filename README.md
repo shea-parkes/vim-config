@@ -1,6 +1,6 @@
 ## Background
 
-I'm still actually planning on having Spacemacs as my primary editor, but there are a lot of times it is nice to spawn a Vim instance and do a little work.  I'm tired of letting the configuration of those Vim instances be left to the whim of others, so I'm going to do some light planning.
+I'm still actually planning on having Spacemacs or NeoVim as my primary editor, but there are a lot of times it is nice to spawn a Vim instance and do a little work.  I'm tired of letting the configuration of those Vim instances be left to the whim of others, so I'm going to do some light planning.
 
 ## Plugin ~manager
 
@@ -38,14 +38,15 @@ Some of this is mentioned above, but here is a consolidated source for helping t
 
 ## Useful Plugins
 
-Vim 7.x didn't make it easy to write async plugins, so making Vim a ~full IDE at this point is not exactly tasteful.  Instead, the following plugins just make things nicer than default:
+I'm not currently aiming to make Vim a ~full IDE (I'm doing that with NeoVim at he moment).  So I'm trying to limit myself to just a few, tasteful plugins.  Here is a recommended list that aligns with my current usage of Vim:
   * [tpope/vim-pathogen](https://github.com/tpope/vim-pathogen)
   * [tpope/vim-surround](https://github.com/tpope/vim-surround)
   * [tpope/vim-repeat](https://github.com/tpope/vim-repeat)
+  * [tpope/vim-commentary](https://github.com/tpope/vim-commentary)
   * [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive)
-  * [jpalardy/vim-slime](https://github.com/jpalardy/vim-slime)
   * [airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter)
+  * [b4winckler/vim-angry](https://github.com/b4winckler/vim-angry)
   * [Raimondi/delimitMate](https://github.com/Raimondi/delimitMate)
   * [ervandew/supertab](https://github.com/ervandew/supertab)
-  
+
 Only a couple of the above require specific configuration options in `vimrc`.  See its contents for details.
