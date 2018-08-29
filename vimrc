@@ -61,6 +61,14 @@ endif
 vnoremap < <gv
 vnoremap > >gv
 
+" FZF mappings
+nnoremap <Leader>pp :Files ~\repos\
+nnoremap <Leader>pf :GFiles<CR>
+nnoremap <Leader>ff :Files %:p:h
+nnoremap <Leader>fr :History<CR>
+nnoremap <Leader>bb :Buffers<CR>
+nnoremap <Leader>/ :BLines<CR>
+
 " Git related mappings
 nnoremap <Leader>gs :Gstatus<CR>
 nnoremap <Leader>gf :Gfetch --prune<CR>
