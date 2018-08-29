@@ -1,7 +1,7 @@
 " This is expecting to layer onto the config provided by Git for Windows
 
-source ~/repos/vim-plugins/vim-pathogen/autoload/pathogen.vim
-execute pathogen#infect('~/repos/vim-plugins/{}')
+source ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
 
 " Update view faster, mostly for git-gutter
 set updatetime=100
