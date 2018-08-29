@@ -4,11 +4,7 @@ I'm still actually planning on having Spacemacs or NeoVim as my primary editor, 
 
 ## Plugin ~manager
 
-There are a pile of options.  At this time, while I'm still bouncing between Vim 7.x and 8.x, I'm going to stick with the venerable Pathogen.  It's not really a plugin manager; it's more a runtime path manager.  I'll have to manually git clone the plugins I want for now, but I'm okay with that.  It'll also keep me from going plugin crazy.
-
-### Pathogen Config
-
-I want to be able to just clone this repository into `~/.vim`, and I don't really want to mess with git submodules, so I'm just going to clone my plugins into `~/repos/vim-plugins/` and configure Pathogen to load them all from there.
+There are a pile of options.  At this time, while I'm still bouncing between Vim 7.x and 8.x, I'm going to stick with the venerable Pathogen.  It's not really a plugin manager; it's more a runtime path manager.  I'm using git submodules as my plugin manager.  See my NeoVim config for more details on how I'm using submodules.
 
 ## Installing Vim
 
@@ -19,8 +15,7 @@ I'm planning on just using the Vim executable that comes with Git for Windows.  
   * Add Vim to `%PATH%`
     * Via `choco`, this is usually `C:\tools\git\usr\bin`
     * Oddly, when using Git for Windows, the user `%PATH%` entries are not appended, so be sure to add these entries to the system `%PATH%`
-  * Clone this repository into `%UserProfile%/.vim`
-  * Clone desired plugins into `%UserProfile%/repos/vim-plugins`
+  * Clone this repository (with `--recursive`) into `%UserProfile%/.vim`
   * Add registry entry for `Open with Vim` Explorer context menu entry
 
 ### Vim Config Load Paths
@@ -38,15 +33,4 @@ Some of this is mentioned above, but here is a consolidated source for helping t
 
 ## Useful Plugins
 
-I'm not currently aiming to make Vim a ~full IDE (I'm doing that with NeoVim at he moment).  So I'm trying to limit myself to just a few, tasteful plugins.  Here is a recommended list that aligns with my current usage of Vim:
-  * [tpope/vim-pathogen](https://github.com/tpope/vim-pathogen)
-  * [tpope/vim-surround](https://github.com/tpope/vim-surround)
-  * [tpope/vim-repeat](https://github.com/tpope/vim-repeat)
-  * [tpope/vim-commentary](https://github.com/tpope/vim-commentary)
-  * [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive)
-  * [airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter)
-  * [b4winckler/vim-angry](https://github.com/b4winckler/vim-angry)
-  * [Raimondi/delimitMate](https://github.com/Raimondi/delimitMate)
-  * [ervandew/supertab](https://github.com/ervandew/supertab)
-
-Only a couple of the above require specific configuration options in `vimrc`.  See its contents for details.
+I'm not currently aiming to make Vim a ~full IDE (I'm doing that with NeoVim at he moment).  So I'm trying to limit myself to just a few, tasteful plugins.  Refer to the included submodules to see where I landed.
