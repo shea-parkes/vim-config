@@ -31,8 +31,9 @@ autocmd BufWritePre * call TrimTrailingLines()
 set directory=~/.vim/swap_files//
 
 " Bring in a custom colorscheme
-set termguicolors
-colorscheme nord
+set background=dark
+" set termguicolors " Not yet tmux compatible in vim
+colorscheme gruvbox
 
 " Quick helper function
 function! GetGitRoot()
