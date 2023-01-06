@@ -13,7 +13,7 @@ set listchars=tab:→\ ,trail:·,extends:↷,precedes:↶
 set list
 let g:netrw_liststyle = 3
 
-" Delete trailing whitespace
+" Delete trailing white space
 autocmd BufWritePre * %s/\s\+$//e
 
 function! TrimTrailingLines()
@@ -30,10 +30,9 @@ autocmd BufWritePre * call TrimTrailingLines()
 " Relocate swap files.  Double trailing slash is an implicit hint.
 set directory=~/.vim/swap_files//
 
-" Bring in a sane colorscheme
-set background=dark
+" Bring in a custom colorscheme
 set termguicolors
-colorscheme gruvbox
+colorscheme nord
 
 " Quick helper function
 function! GetGitRoot()
