@@ -1,6 +1,4 @@
-" This is expecting to layer onto the config provided by Git for Windows
-
-source ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim
+execute 'source ' . expand('<sfile>:p:h') . '/bundle/vim-pathogen/autoload/pathogen.vim'
 execute pathogen#infect()
 
 " Update view faster, mostly for git-gutter
@@ -31,6 +29,8 @@ set wildmode=list:longest,full
 " Relocate swap files.  Double trailing slash is an implicit hint.
 set directory=~/.vim/swap_files//
 
+set background=dark
+colorscheme gruvbox
 
 
 """""""""""""""""""""""""""
