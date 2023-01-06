@@ -22,3 +22,6 @@
 [submodule "bundle/lexima.vim"]
 	path = bundle/lexima.vim
 	url = https://github.com/cohama/lexima.vim
+[submodule "bundle/vim-sensible"]
+	path = bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible
