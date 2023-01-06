@@ -31,6 +31,3 @@
 [submodule "bundle/targets.vim"]
 	path = bundle/targets.vim
 	url = https://github.com/wellle/targets.vim
-[submodule "bundle/nord-vim"]
-	path = bundle/nord-vim
-	url = https://github.com/arcticicestudio/nord-vim
