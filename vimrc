@@ -32,6 +32,7 @@ set directory=~/.vim/swap_files//
 
 " Bring in a sane colorscheme
 set background=dark
+set termguicolors
 colorscheme gruvbox
 
 " Quick helper function
