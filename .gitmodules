@@ -31,3 +31,6 @@
 [submodule "bundle/targets.vim"]
 	path = bundle/targets.vim
 	url = https://github.com/wellle/targets.vim
+[submodule "bundle/vim-dogrun"]
+	path = bundle/vim-dogrun
+	url = https://github.com/wadackel/vim-dogrun
