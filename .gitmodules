@@ -16,9 +16,6 @@
 [submodule "bundle/vim-unimpaired"]
 	path = bundle/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired
-[submodule "bundle/gruvbox"]
-	path = bundle/gruvbox
-	url = https://github.com/gruvbox-community/gruvbox
 [submodule "bundle/lexima.vim"]
 	path = bundle/lexima.vim
 	url = https://github.com/cohama/lexima.vim
@@ -31,9 +28,6 @@
 [submodule "bundle/targets.vim"]
 	path = bundle/targets.vim
 	url = https://github.com/wellle/targets.vim
-[submodule "bundle/vim-dogrun"]
-	path = bundle/vim-dogrun
-	url = https://github.com/wadackel/vim-dogrun
 [submodule "bundle/awesome-vim-colorschemes"]
 	path = bundle/awesome-vim-colorschemes
 	url = https://github.com/rafi/awesome-vim-colorschemes
