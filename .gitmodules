@@ -34,3 +34,6 @@
 [submodule "bundle/vim-dogrun"]
 	path = bundle/vim-dogrun
 	url = https://github.com/wadackel/vim-dogrun
+[submodule "bundle/awesome-vim-colorschemes"]
+	path = bundle/awesome-vim-colorschemes
+	url = https://github.com/rafi/awesome-vim-colorschemes
